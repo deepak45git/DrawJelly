@@ -1,0 +1,60 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  margin-bottom: 10px;
+}
+
+.toolbar {
+  margin-bottom: 15px;
+}
+
+canvas {
+  border: 2px solid #333;
+  background-color: #fff;
+  cursor: crosshair;
+}
+
+input[type="color"],
+input[type="range"],
+button {
+  margin: 5px;
+  padding: 6px 10px;
+  font-size: 14px;
+  border-radius: 5px;
+  border: 1px solid #aaa;
+}
+
+input[type="range"] {
+  width: 100px;
+}
+
+button.active {
+  background-color: #00c853;
+  color: white;
+  border: 2px solid #009624;
+}
+
+.bottom-toolbar {
+  margin-top: 15px;
+  text-align: center;
+}
+
+.bottom-toolbar button {
+  margin: 5px;
+  padding: 8px 14px;
+  font-size: 14px;
+  border-radius: 6px;
+  border: 1px solid #888;
+  background-color: #eee;
+  cursor: pointer;
+}
+
+.bottom-toolbar button:hover {
+  background-color: #ddd;
+} 
